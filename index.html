@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Blog Website</title>
+</head>
+<body>
+    <section class="navbar"><nav class="navbar navbar-expand-lg bg-body px-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">RISE<span>BLOG</span></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+            <form class="d-flex" role="search">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 grid gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                          </li>
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#articles">Articles</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                      </li>
+                      
+                    </ul>
+                    <button id="search-btn">
+                      <i class="bi bi-search"></i>
+                    </button>
+                      <div class="search-form ">
+                        <input type="text" class="search-input" id="search-box" placeholder="search here">
+                        
+                      </div>
+                      
+            </form>
+          </div>
+        </div>
+      </nav></section>
+      <section class="carouselExample" id="home"><div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Circles (1).png" class="d-block w-100 " alt="...">
+            <img src="img/Content.png" class="content-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Circles.png" class="d-flex w-100" alt="...">
+            <div class="content-text">
+                <ul>
+                    <li><h1>Find Your</h1></li>
+                    <li><h1> Best</h1></li>
+                    <li><h1 class="h1"> Article</h1></li>
+                    <li><h1>Topics here</h1> </li>
+                </ul>
+            </div>
+            <img src="img/Frame 3.png" class="img-1" alt="">
+          </div>
+         
+        </div>
+        <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div></section>
+      <div class="best-article">
+        <img src="./img/Shapes.png" alt="">
+        <div class="best-article-text">
+            <h1>Best<br>
+                <span>Article</span><br>
+                Today</h1>
+                <button type="button" class="btn btn-light">See All Articles</button>
+        </div><div class="card-titan">
+        <div class="card" style="width: 200px;">
+            <div class="card-profil">
+                <img src="img/Rectangle 71 (1).png" alt="">
+                <p>Joana</p>
+            </div>
+            <img src="img/smiley-woman-with-headphones-working-laptop 1.png" class="card-img-top"  alt="...">
+              <div class="tech"><p>Tech</p></div>
+              <div class="card-body">
+              <h5 class="card-title">Elon Musk shows off updates to his brain chips </h5>
+              <p class="card-text">Elon Musk’s health tech venture Neuralink shared updates to its brain...</p>
+              
+              <div class="card-bottom">
+                <div class="card-bottom-left">
+                    <p>10h ago</p>
+                    <div class="card-logo-container">
+                    <div class="card-logo">12 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                      </svg></div>
+                      <div class="card-logo">12 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-quote" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+                      </svg>
+                      </div></div>
+                </div><a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 200px;">
+            <div class="card-profil">
+                <img src="img/Rectangle 71 (1).png" alt="">
+                <p>Rey</p>
+            </div>
+            <img src="img/smiley-woman-with-headphones-working-laptop 1 (1).png" class="card-img-top" alt="...">
+              <div class="tech-1"><p>Environment</p></div>
+              <div class="card-body">
+              <h5 class="card-title">The overlooked benefits of real Christmas trees </h5>
+              <p class="card-text">The environmental pros and cons of Christmas trees go far beyond the...</p>
+              
+              <div class="card-bottom">
+                <div class="card-bottom-left">
+                    <p>12h ago</p>
+                    <div class="card-logo-container">
+                    <div class="card-logo">41<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                      </svg></div>
+                      <div class="card-logo">21<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-quote" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+                      </svg>
+                      </div></div>
+                </div><a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 200px;">
+            <div class="card-profil">
+                <img src="img/Rectangle 71 (2).png" alt="">
+                <p>Sam</p>
+            </div>
+            <img src="img/smiley-woman-with-headphones-working-laptop 1 (2).png" class="card-img-top" alt="...">
+              <div class="tech"><p>Tech</p></div>
+              <div class="card-body">
+              <h5 class="card-title">The law comes for Bankman-Fried</h5>
+              <p class="card-text">Less than a week after telling a BBC journalist that he didn’t think ...</p>
+              
+              <div class="card-bottom">
+                <div class="card-bottom-left">
+                    <p>10h ago</p>
+                    <div class="card-logo-container">
+                    <div class="card-logo">34<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                      </svg></div>
+                      <div class="card-logo">24<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-quote" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+                      </svg>
+                      </div></div>
+                </div><a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 200px;">
+            <div class="card-profil">
+                <img src="img/Rectangle 71.png" alt="">
+                <p>Joana</p>
+            </div>
+            <img src="img/smiley-woman-with-headphones-working-laptop 1 (3).png" class="card-img-top" alt="...">
+              <div class="tech-2"><p>Business</p></div>
+              <div class="card-body">
+              <h5 class="card-title">Bank of England warns UK housing...</h5>
+              <p class="card-text">Bank of England says most housing market indicators have...</p>
+              
+              <div class="card-bottom">
+                <div class="card-bottom-left">
+                    <p>14h ago</p>
+                    <div class="card-logo-container">
+                    <div class="card-logo">22<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                      </svg></div>
+                      <div class="card-logo">12<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-quote" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+                      </svg>
+                      </div></div>
+                </div><a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <section class="subscribe-section"><div class="subscribe">
+        <div class="subscribe-container">
+            <div class="img-container">
+                <img src="img/Rectangle 78.png" class="img-1" alt="">
+                <img src="img/Rectangle 72.png" class="img-2" alt="">
+                <img src="img/Rectangle 75.png" class="img-3" alt="">
+                <img src="img/Rectangle 67.png" class="img-4" alt="">
+                <img src="img/Rectangle 76.png" class="img-5" alt="">
+                <img src="img/Rectangle 77.png" class="img-6" alt="">
+                <img src="img/Rectangle 75 (1).png" class="img-7" alt="">
+            </div>
+            <div class="input-container">
+                <h1>Subscribe</h1>
+                <p>Subscribe to our newsletter and get upto 40% off on our exclusive service. </p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Email Adress" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                   <button>Subscribe</button>
+                  </div>
+                  
+            </div>
+            </div>
+      </div></section> 
+      <section class="for-you">
+        <div class="for-container">
+        <div class="user-card">
+          <h2>Recommended Users</h2>
+          <div class="users"> 
+            <img src="img/Rectangle 71 (3).png" alt="">
+            <p>Joana Marie Jones</p>
+            <button>Follow</button>
+          </div>
+          <div class="users"> 
+            <img src="img/Rectangle 71 (4).png" alt="">
+            <p>Jousef Hanafi</p>
+            <button>Follow</button>
+          </div>
+        </div>
+        <div class="images">
+          <img src="img/Rectangle 75.png" class="images-1" alt="">
+          <img src="img/Rectangle 63.png" class="images-2" alt="">
+          <img src="img/Rectangle 64.png" class="images-3" alt="">
+          <img src="img/Rectangle 72.png" class="images-4" alt="">
+        </div>
+        <div class="for-you-content">
+          <h1>For You</h1>
+          <input type="text" class="form-control" placeholder="Search Article" aria-label="Username" aria-describedby="addon-wrapping">
+          <ul>
+            <li class="active">All</li>
+            <li>Technology</li>
+            <li>Environment</li>
+            <li>Business</li>
+            <li>Public</li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </ul>
+        </div>
+        <div class="card-all">
+          <div class="for-card">
+            <img src="img/Rectangle 83.png" alt="">
+            <div class="card-right">
+              <div class="h2"><h5>The overlooked benefits of real Christmas trees</h5> <p>12h ago</p></div>
+              <p class="prf">The environmental pros and cons of Christmas trees go far beyond the...</p>
+              <div class="card-right-1">
+                <img src="img/Rectangle 71.png" alt="">
+                <h3>Rey</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+              </div>
+              <div class="card-right-2">
+               <a href="#"class="a">Environment</a>
+                <a href="#" class="elon">Elon Musk</a>
+                <div class="reaction"> 41<i class="bi bi-heart-fill"></i>
+                21<i class="bi bi-chat-right-dots-fill"></i>
+                  <button class="read">Read More</button></div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="for-card">
+            <img src="img/Rectangle 83 (1).png"  alt="">
+            <div class="card-right">
+              <div class="h2"><h5>The law comes for Bankman-Fried</h5> <p>10h ago</p></div>
+              <p class="prf">Less than a week after telling a BBC journalist that he didn’t think he’d be arrested for his role in crypto exchange FTX’s collapse.</p>
+              <div class="card-right-1">
+                <img src="img/Rectangle 71 (1).png" alt="">
+                <h3>Sam</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+              </div>
+              <div class="card-right-2">
+                <div> <a href="#" class="a-1">Tech</a>
+                <a href="#" class="elon">FTX</a> </div>
+                <div class="reaction"> 34<i class="bi bi-heart-fill"></i>
+                24<i class="bi bi-chat-right-dots-fill"></i>
+                  <button class="read">Read More</button></div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="for-card">
+            <img src="img/Rectangle 83 (2).png" alt="">
+            <div class="card-right">
+              <div class="h2"><h5>Elon Musk shows off updates to his brain chips </h5> <p>10h ago</p></div>
+              <p class="prf">Elon Musk’s health tech venture Neuralink shared updates to its brain...</p>
+              <div class="card-right-1">
+                <img src="img/Rectangle 71 (2).png" alt="">
+                <h3>Joana</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+              </div>
+              <div class="card-right-2">
+                <div><a href="#" class="a-1">Tech</a>
+                <a href="#" class="elon">Elon Musk</a></div>
+                <div class="reaction"> 32<i class="bi bi-heart-fill"></i>
+                12<i class="bi bi-chat-right-dots-fill"></i>
+                  <button class="read">Read More</button></div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="for-card">
+            <img src="img/Rectangle 83 (3).png" alt="">
+            <div class="card-right">
+              <div class="h2"><h5>Bank of England warns UK housing market has...</h5><p>14h ago</p></div>
+              <p class="prf">Bank of England says most housing market indicators have continued to soften, as it lifts...</p>
+              <div class="card-right-1">
+                <img src="img/Rectangle 71 (1).png" alt="">
+                <h3>Sam</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+              </div>
+              <div class="card-right-2">
+                <div ><a href="#" class="a-2">Business</a>
+                <a href="#" class="elon">UK</a></div>
+                <div class="reaction"> 22<i class="bi bi-heart-fill"></i>
+                12<i class="bi bi-chat-right-dots-fill"></i>
+                  <button class="read">Read More</button></div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="for-card">
+            <img src="img/Rectangle 83 (4).png" alt="">
+            <div class="card-right">
+              <div class="h2"><h5>The climate crisis and the environment in Central Asia.</h5> <p>12h ago</p></div>
+              <p class="prf">The states of Central Asia  Kazakhstan, Kyrgyzstan, Tajikistan,...</p>
+              <div class="card-right-1">
+                <img src="img/Rectangle 71.png" alt="">
+                <h3>Rey</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+              </div>
+              <div class="card-right-2">
+                <div><a href="#" class="a">Environment</a>
+                <a href="#" class="elon">Asia</a></div>
+                <div class="reaction"> 11<i class="bi bi-heart-fill"></i>
+                12<i class="bi bi-chat-right-dots-fill"></i>
+                  <button class="read">Read More</button></div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="for-card">
+            <img src="img/Rectangle 83.png" alt="">
+            <div class="card-right">
+              <div class="h2"><h5>The overlooked benefits of real Christmas trees</h5> <p>12h ago</p></div>
+              <p class="prf">The environmental pros and cons of Christmas trees go far beyond the...</p>
+              <div class="card-right-1">
+                <img src="img/Rectangle 71 (2).png" alt="">
+                <h3>Joana</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+              </div>
+              <div class="card-right-2">
+                <div><a href="#" class="a">Environment</a>
+                <a href="#" class="elon">Elon Musk</a></div>
+                <div class="reaction"> 41<i class="bi bi-heart-fill"></i></i>
+                21<i class="bi bi-chat-right-dots-fill"></i></i></div>
+                  <button class="read">Read More</button>
+              </div>
+            
+            </div>
+          </div>
+          <div class="for-card">
+            <img src="img/Rectangle 83 (1).png"  alt="">
+            <div class="card-right">
+              <div class="h2"><h5>The law comes for Bankman-Fried</h5> <p>10h ago</p></div>
+              <p class="prf">Less than a week after telling a BBC journalist that he didn’t think he’d be arrested for his role in crypto exchange FTX’s collapse.</p>
+              <div class="card-right-1">
+                <img src="img/Rectangle 71 (1).png" alt="">
+                <h3>Sam</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+              </div>
+              <div class="card-right-2">
+                <div ><a href="#" class="a-1">Tech</a>
+                <a href="#" class="elon">Ftx </a> </div>
+                <div class="reaction"> 34<i class="bi bi-heart-fill"></i>
+                24<i class="bi bi-chat-right-dots-fill"></i>
+                  <button class="read">Read More</button></div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="for-card">
+            <img src="img/Rectangle 83 (2).png" alt="">
+            <div class="card-right">
+              <div class="h2"><h5>Elon Musk shows off updates to his brain chips </h5> <p>10h ago</p></div>
+              <p class="prf">Elon Musk’s health tech venture Neuralink shared updates to its brain...</p>
+              <div class="card-right-1">
+                <img src="img/Rectangle 71 (2).png" alt="">
+                <h3>Joana</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+              </div>
+              <div class="card-right-2">
+                <div ><a href="#" class="a-1">Tech</a>
+                <a href="#" class="elon">Elon Musk</a></div>
+                <div class="reaction"> 32<i class="bi bi-heart-fill"></i>
+                12<i class="bi bi-chat-right-dots-fill"></i>
+                  <button class="read">Read More</button></div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+        <div class="create-account">
+          <div class="create-button-1">Create Account</div>
+          <div class="create-container">
+            <h1>Trending</h1>
+        <div class="create-card">
+          <img src="img/Rectangle 90.png" alt="">
+          <div class="create-card-right">
+            <p>How Will AI Image Generators Affect Artists?</p>
+            <div class="create-card-bottom">
+              <div class="create-user">
+                <img src="img/Rectangle 71 (1).png" alt="">
+                <p class="create-p">Rey</p>
+              </div>
+              <div class="create-buttons">
+              <button class="create-button-2">Art</button>
+              <button class="create-button-3">Tech</button>
+           </div> 
+              <p class="alt-p">10h ago</p>
+          </div>
+          </div>
+        </div>
+        <div class="create-card">
+          <img src="img/Rectangle 83.png" alt="">
+          <div class="create-card-right">
+            <p>How Will AI Image Generators Affect Artists?</p>
+            <div class="create-card-bottom">
+              <div class="create-user">
+                <img src="img/Rectangle 71 (5).png" alt="">
+                <p class="create-p">Ron</p>
+              </div>
+              <div class="create-buttons">
+              <button class="create-button-4">Environment</button>
+              <button class="create-button-3">Tech</button>
+           </div> 
+              <p class="alt-p">10h ago</p>
+          </div>
+          </div>
+        </div>
+          <div class="create-card">
+            <img src="img/Rectangle 90.png" alt="">
+            <div class="create-card-right">
+              <p>How Will AI Image Generators Affect Artists?</p>
+              <div class="create-card-bottom">
+                <div class="create-user">
+                  <img src="img/Rectangle 71 (1).png" alt="">
+                  <p class="create-p">Rey</p>
+                </div>
+                <div class="create-buttons">
+                <button class="create-button-2">Art</button>
+                <button class="create-button-3">Tech</button>
+             </div> 
+                <p class="alt-p">10h ago</p>
+            </div>
+            </div>
+          </div>
+          <div class="create-card">
+            <img src="img/Rectangle 83.png" alt="">
+            <div class="create-card-right">
+              <p>How Will AI Image Generators Affect Artists?</p>
+              <div class="create-card-bottom">
+                <div class="create-user">
+                  <img src="img/Rectangle 71 (5).png" alt="">
+                  <p class="create-p">Ron</p>
+                </div>
+                <div class="create-buttons">
+                <button class="create-button-4">Environment</button>
+                <button class="create-button-3">Tech</button>
+             </div> 
+                <p class="alt-p">10h ago</p>
+            </div>
+            </div>
+          </div></div></div>
+      
+      </section>
+      <section class="Article" id="articles">
+        <div class="images-n">
+          <img src="img/Rectangle 75.png" class="images-1" alt="">
+          <img src="img/Rectangle 63.png" class="images-2" alt="">
+          <img src="img/Rectangle 64.png" class="images-3" alt="">
+          <img src="img/Rectangle 72.png" class="images-4" alt="">
+        </div>
+        <div class="article-for-you">
+          <h1>For You</h1>
+          <input type="text" class="form-control" placeholder="Search Article" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+        <div class="article-card">
+          <img src="img/Rectangle 83.png" alt="">
+          <div class="article-card-right">
+            <p>How Will AI Image Generators Affect Artists?</p>
+            <div class="article-card-bottom">
+              <div class="article-user">
+                <img src="img/Rectangle 71 (5).png" alt="">
+                <p class="article-p">Ron</p>
+              </div>
+              <div class="article-buttons">
+              <button class="article-button-4">Environment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article-card-1">
+          <img src="img/Rectangle 83.png" alt="">
+          <div class="article-card-right">
+            <p>How Will AI Image Generators Affect Artists?</p>
+            <div class="article-card-bottom">
+              <div class="article-user">
+                <img src="img/Rectangle 71 (5).png" alt="">
+                <p class="article-p">Ron</p>
+              </div>
+              <div class="article-buttons">
+              <button class="article-button-4">Environment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article-card-2">
+          <img src="img/Rectangle 83.png" alt="">
+          <div class="article-card-right">
+            <p>How Will AI Image Generators Affect Artists?</p>
+            <div class="article-card-bottom">
+              <div class="article-user">
+                <img src="img/Rectangle 71 (5).png" alt="">
+                <p class="article-p">Ron</p>
+              </div>
+              <div class="article-buttons">
+              <button class="article-button-4">Environment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article-container">
+          <h1>Trending</h1>
+      <div class="article-card-3">
+        <img src="img/Rectangle 90.png" alt="">
+        <div class="create-card-right">
+          <p>How Will AI Image Generators Affect Artists?</p>
+          
+      
+        </div>
+      </div>
+      <div class="article-card-3">
+        <img src="img/Rectangle 83.png" alt="">
+        <p>Burying Green: Eco-Friendly Death Care On The Rise</p>
+        
+      </div>
+        </div>
+        <div class="reccomend">
+          <h2>Recommeded topics</h2>
+          <button>Elon Musk</button>
+          <button>FTX</button>
+          <button>Cryipto</button>
+          <button>Politic</button>
+          <button>Metaverse</button>
+        </div>
+        <div class="big">
+          <div class="menu-tab">
+            <div class="menu-left">
+              <img src="./img/Rectangle 71 (1).png" alt="">
+              <p>Joana Marie Jones</p>
+              <i class="bi bi-star-fill"></i>
+              <button>Follow</button>
+            </div>
+            <div class="menu-right">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-linkedin"></i>
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-whatsapp"></i>
+            </div>
+          </div>
+          <div class="article-bottom">
+          <h1>Elon Musk shows off updates to his brain chips and says he’s going to install one in himself when they are ready</h1>
+          <p class="little">PUBLISHED THU, DEC 1 20228:09 AM ESTUPDATED THU, DEC 1 202210:36 AM EST</p>
+          <img src="img/smiley-woman-with-headphones-working-laptop 1.png" alt="">
+          <p class="little">Neuralink logo displayed on a phone screen, a silhouette of a paper in shape of a human face and a binary code displayed on a screen are seen in this multiple exposure illustration photo taken in Krakow, Poland on December 10, 2021.</p>
+          <p class="big-p">Elon Musk shows off updates to his brain chips and says he’s going to install one in himself when they are readyElon Musk’s health tech venture Neuralink shared updates to its brain-implant technology during a “show and tell” recruitment event Wednesday night. Musk said during the event that he plans to get one of the implants himself.
+
+            Musk said two of the company’s applications will aim to restore vision, even for people who were born blind, and a third application will focus on the motor cortex, restoring “full body functionality” for people with severed spinal cords. “We’re confident there are no physical limitations to restoring full body functionality,” Musk said.
+            
+            Neuralink could begin to test the motor cortex technology in humans in as soon as six months, Musk said.
+            
+            “Obviously, we want to be extremely careful and certain that it will work well before putting a device in a human, but we’re submitted, I think, most of our paperwork to the FDA,” he said.
+            
+            Musk also said he plans to get one himself. “You could have a Neuralink device implanted right now and you wouldn’t even know. I mean, hypothetically ... In fact, in one of these demos, I will,” he said. He reiterated that on Twitter after the event.
+            
+            Since none of Neuralink’s devices have been tested on humans or approved by the FDA, Wednesday’s announcements warrant skepticism, said Xing Chen, assistant professor in the Department of Ophthalmology at the University of Pittsburgh School of Medicine.
+            
+           </p></div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="footer-content">
+          <i class="bi bi-c-circle"></i>
+          <b>2022 RiseBlog.</b>
+          <p>All rights reserved</p>
+        </div>
+      </section>
+      
+     
+    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
